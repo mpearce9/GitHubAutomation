@@ -45,13 +45,16 @@ WebDriverWait(driver,10).until(ec.presence_of_element_located((By.XPATH,'//*[@id
 driver.find_element_by_xpath('//*[@id="global_nav_courses_link"]').click()
 
 time.sleep(3)
-driver.find_element_by_xpath('//*[@id="nav-tray-portal"]/span/span/div/div/div/div/div/ul[1]/li[2]').click() # May have to change this xpath based on where 3155 shows up
+WebDriverWait(driver,10).until(ec.presence_of_element_located((By.XPATH,'/html/body/div[3]/span/span/div/div/div/div/div/ul[1]/li[2]/a')))#wait for page load
+driver.find_element_by_xpath('/html/body/div[3]/span/span/div/div/div/div/div/ul[1]/li[2]/a').click() # May have to change this xpath based on where 3155 shows up
 
 time.sleep(3)
-driver.find_element_by_xpath('//*[@id="section-tabs"]/li[7]/a')
+WebDriverWait(driver,10).until(ec.presence_of_element_located((By.XPATH,'/html/body/div[2]/div[2]/div[2]/div[2]/div/nav/ul/li[7]/a')))#wait for page load
+driver.find_element_by_xpath('/html/body/div[2]/div[2]/div[2]/div[2]/div/nav/ul/li[7]/a').click()
 
 time.sleep(3)
 ###################################### Change this xpath per assignment #############################################################
+WebDriverWait(driver,10).until(ec.presence_of_element_located((By.XPATH,'//*[@id="slickgrid_879032assignment_1412123"]/span/div/div/span/span/span[2]/span/span[1]/a')))#wait for page load
 driver.find_element_by_xpath('//*[@id="slickgrid_879032assignment_1412123"]/span/div/div/span/span/span[2]/span/span[1]/a').click()
 ###################################### Change this xpath per assignment #############################################################
 time.sleep(2)
