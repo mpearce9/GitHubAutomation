@@ -17,7 +17,6 @@ gitPass = getpass.getpass('Please enter your password:')
 duoPin = input("Please enter your duo push code: ")
 
 driver = webdriver.Firefox(executable_path='C:/Users/Michael/Documents/Personal/PY_code/Selenium_Drivers/geckodriver.exe') #replace path with your own geckodriver.exe Path
-#################### Still need to open a tab to login to GitHub and stay logged in #####################################
 driver.get('https://github.com/')
 time.sleep(1)
 driver.find_element_by_xpath('/html/body/div[1]/header/div/div[2]/div[2]/div[2]/a').click()
