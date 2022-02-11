@@ -1,0 +1,36 @@
+1644595606761	geckodriver	INFO	Listening on 127.0.0.1:60594
+1644595609824	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60595" "-no-remote" "-profile" "C:\\Users\\Michael\\AppData\\Local\\Temp\\rust_mozprofileheWeHP"
+1644595610376	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Michael\\AppData\\Local\\Temp\\rust_mozprofileheWeHP\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60595/devtools/browser/03f9533b-53a6-4a6f-ac07-e8634a38068f
+1644595612308	Marionette	INFO	Listening on port 63154
+1644595612529	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://instructure-uploads.s3.amazonaws.com/account_73010000000000001/attachments/15052561/uncc_canvas.js, line 192: TypeError: document.getElementById(...) is null
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 110: Error: Got a request https://du11hjcvx0uqb.cloudfront.net/dist/brandable_css/no_variables/bundles/lato_extended-f5a83bde37.css without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 110: Error: Got a request https://du11hjcvx0uqb.cloudfront.net/dist/brandable_css/0310970111ae27083ac9df78565a732a/variables-7dd4b80918af0e0218ec0229e4bd5873.css without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 110: Error: Got a request https://du11hjcvx0uqb.cloudfront.net/dist/brandable_css/responsive_layout_normal_contrast/bundles/common-4d7fe2c46c.css without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 110: Error: Got a request https://instructure-uploads.s3.amazonaws.com/account_73010000000000001/attachments/14788298/uncc_canvas.css without a browsingContextID set
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1644595691070	Marionette	INFO	Stopped listening on port 63154
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Michael\\AppData\\Local\\Temp\\rust_mozprofileIVeH98\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63258/devtools/browser/1bd3e103-1f90-4351-a21e-08696dcb2f24
+1644595690341	Marionette	INFO	Listening on port 63267
+1644595690372	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://instructure-uploads.s3.amazonaws.com/account_73010000000000001/attachments/15052561/uncc_canvas.js, line 192: TypeError: document.getElementById(...) is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://webauth.uncc.edu"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://webauth.uncc.edu"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://api-c9cc3e0e.duosecurity.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://api-c9cc3e0e.duosecurity.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1644595693926	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1644595696598	Marionette	INFO	Stopped listening on port 63267
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
