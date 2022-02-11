@@ -9,12 +9,22 @@ from selenium.webdriver.common.keys import Keys
 import os
 
 missingMessage = "It seems I do not have access to this repository. Please add my username (or resend the invite if it expired) and email me by the Friday night after this grade is posted."
-username = input("Please enter your ninernet username: ")                                          # Please enter your username here
-password = getpass.getpass('Please enter your password:')                                            # Please enter your password here
+username = input("Please enter your ninernet username: ")
+password = getpass.getpass('Please enter your password:')
+gitUser = input("Please enter your GitHub username: ")
+gitPass = getpass.getpass('Please enter your password:')  
 
 duoPin = input("Please enter your duo push code: ")
 
 driver = webdriver.Firefox(executable_path='C:/Users/Michael/Documents/Personal/PY_code/Selenium_Drivers/geckodriver.exe') #replace path with your own geckodriver.exe Path
+#################### Still need to open a tab to login to GitHub and stay logged in #####################################
+driver.get('https://github.com/')
+time.sleep(1)
+driver.find_element_by_xpath('/html/body/div[1]/header/div/div[2]/div[2]/div[2]/a').click()
+driver.find_element_by_xpath('//*[@id="login_field"]').send_keys(gitUser)
+driver.find_element_by_xpath('//*[@id="password"]').send_keys(gitPass)
+driver.find_element_by_xpath('//*[@id="login"]/div[4]/form/div/input[12]').click()
+
 driver.get("https://uncc.instructure.com/login?needs_cookies=1")
 time.sleep(1)
 driver.find_element_by_xpath('//*[@id="global_nav_login_link"]').click()
