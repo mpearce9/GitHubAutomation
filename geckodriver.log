@@ -1,0 +1,21 @@
+1644994722996	geckodriver	INFO	Listening on 127.0.0.1:61843
+1644994726074	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61844" "-no-remote" "-profile" "C:\\Users\\Michael\\AppData\\Local\\Temp\\rust_mozprofilew9oBJE"
+1644994726422	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Michael\\AppData\\Local\\Temp\\rust_mozprofilew9oBJE\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61844/devtools/browser/19bdedf9-40a2-42b8-8197-65f4deb05849
+1644994728417	Marionette	INFO	Listening on port 61849
+1644994728818	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://github.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://github.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://instructure-uploads.s3.amazonaws.com/account_73010000000000001/attachments/15052561/uncc_canvas.js, line 192: TypeError: document.getElementById(...) is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://webauth.uncc.edu"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://webauth.uncc.edu"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1644994736218	Marionette	INFO	Stopped listening on port 61849
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
