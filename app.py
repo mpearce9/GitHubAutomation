@@ -66,6 +66,7 @@ time.sleep(2)
 driver.switch_to.window(driver.window_handles[1])
 time.sleep(10)
 
+WebDriverWait(driver, 30).until(ec.presence_of_element_located((By.XPATH,'//*[@id="speedgrader_iframe"]')))#wait for page load
 iframe1 = driver.find_element(By.XPATH, '//*[@id="speedgrader_iframe"]')
 driver.switch_to.frame(iframe1)
 for i in range(75):
